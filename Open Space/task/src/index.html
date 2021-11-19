@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" async></script>
+    <title>Open Space</title>
+</head>
+<body>
+    <div class="space">
+        <div class="planet-area">
+            <img class="planet" src="mars.png">
+            <img id="rocket" class="rocket" src="rocket.png">
+        </div>
+        <div class="control-panel">
+            <div class="control-panel__inner" align="center">
+                    <input id="password" class="round password" type="password" placeholder="Enter password to unlock">
+                    <input id="btn" class="round b_color" type="button" value="OK" onclick="validate()">
+                    <div class="check-buttons round">
+                        <input id="checkboxes1" class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                        <input id="checkboxes2" class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                        <input id="checkboxes3" class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                        <input id="checkboxes4" class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                        <input id="checkboxes5" class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                        <input id="checkboxes6"class="checkb-flex" type="checkbox" name="" value="" onchange="detect()">
+                    </div>
+                    <div class="levers round">
+                        <input id="slider1" class="slider" type="range" id="volume1" name="volume" min="0" max="5" onchange="detect()">
+                        <input id="slider2" class="slider" type="range" id="volume2" name="volume" min="0" max="5" onchange="detect()">
+                        <input id="slider3" class="slider" type="range" id="volume3" name="volume" min="0" max="5" onchange="detect()">
+                        <input id="slider4" class="slider" type="range" id="volume4" name="volume" min="0" max="5" onchange="detect()">
+                        <input id="slider5" class="slider" type="range" id="volume5" name="volume" min="0" max="5" onchange="detect()">
+                    </div>
+                    <input id="launchbtn" class="round egg" type="button" value="launch" onclick="launch()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

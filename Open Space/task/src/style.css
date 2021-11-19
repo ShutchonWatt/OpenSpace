@@ -1,0 +1,97 @@
+body{
+    position: relative;
+    background-color:black;
+    background-size:cover;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.space{
+    background: url(space.png);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.planet-area{
+    position: relative;
+    height: 100%;
+    width: 50%;
+
+}
+.planet{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 0px;
+    left: -10px;
+
+}
+.rocket{
+    position: absolute;
+    bottom: 250px;
+    left: 250px;
+    transform: rotate(30deg);
+    height: 200px;
+    width: 200px;
+
+}
+.control-panel{
+    flex-direction: column;
+    background-image:linear-gradient(white, dodgerblue);
+    height: 270px;
+    width: 320px;
+    padding: 0.5em;
+}
+.control-panel__inner{
+    flex-direction: column;
+    background-color:dodgerblue;
+    height: 250px;
+    width: 300px;
+    padding: 0.5em;
+}
+.check-buttons{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    margin:0.5em;
+}
+.checkb-flex{
+    flex-grow: 1;
+}
+.slider{
+
+}
+.levers{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    height: 40%;
+    margin:0.5em;
+}
+.slider{
+    flex-shrink: 1;
+    transform: rotate(90deg);
+    width: 100%;
+}
+.round{
+    border-radius: 10px;
+}
+.password{
+    color: blue;
+    border:2px solid green;
+}
+.b_color{
+    background-color: orange;
+    color:blue;
+}
+.egg{
+    display:block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: orange;
+    color:blue;
+}
